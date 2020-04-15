@@ -12,26 +12,12 @@
 #myStyle:hover {
 
   background-color: green;
-  
+
 }
 
-#ct{
-
-    background-color: brown;
-    padding: 10px;
-    border: 2px solid white;
-    margin: 25px;
-    transition: background-color 0.5s ease;
-    background-color: rgb(42, 165, 42);
-    
-  }
   
 body{
   background-image: url("images/background.jpg"); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   background-repeat: no-repeat, repeat;
 
 }

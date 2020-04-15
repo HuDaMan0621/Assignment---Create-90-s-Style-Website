@@ -1,0 +1,21 @@
+#ChronoTrigger{
+
+    background-color: rgb(61, 165, 42);
+
+  }
+
+
+#style1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    /* position: fixed; */
+    padding: 10px;
+    border: 2px solid brown;
+    margin:5px;
+}
+
+#p1{
+    text-indent: 20px;
+}

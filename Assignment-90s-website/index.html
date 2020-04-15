@@ -35,10 +35,12 @@ This is my website!
     </div>
     <h1 style="color: burlywood;">
         <strong>
-            are your favorite 90s SNES games?
+            Do you have any 90s SNES games?
         </strong>
     </h1>
 
+    <!-- create a box, let me know what you think  -->
+        
     <form action="">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name"><br><br>
@@ -49,8 +51,46 @@ This is my website!
     
     <p style="color: cyan; font-style: normal;">Click the "Submit" button and nothing happens.</p>
     
-    <!-- create a box, let me know what you think  -->
-        
+    <br>
+    <br>
     
 </body>
+    <p>
+        Cast your vote here! Clik on the buttons
+    </p>
+    <!-- counter for Street Fighter -->
+    <button onclick=displaycount()>Super Mario World</button>
+    <p id = "smw">0</p>
+
+    <script>
+        var count=(function (){
+            var counter = 0;
+        return function () {return counter +1;}
+
+        })();
+    
+
+    
+    function displaycount(){
+    document.getElementById("smw").innerHTML = count();
+    }
+    </script>
+
+    <!-- counter for Street Fighter -->
+    <button onclick="displaycountsm()">Super Metriod</button>
+    <p id = "sm">0</p>
+
+    <script>
+        var count1=(function (){
+            var counter1 = 0;
+        return function () {return counter1 +=1;}
+
+        })();
+    
+    function displaycountsm(){
+    document.getElementById("sm").innerHTML = count1();
+    }
+    </script>
+
+    
 </html>
