@@ -15,12 +15,30 @@
 
 }
 
-  
+
 body{
+  /* cursor: help; */
+  cursor: url('file:///Users/hudaman/Desktop/Projects/0414-2020/Assignment-90s-website/images/cursor.png'),auto;
+
+  /* cursor: zoom-out; */
   background-image: url("images/background.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat, repeat;
 
 }
+/* .cursor{
+  width:20px;
+  height:20px;
+  border:1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+
+} */
 h1{
   color: white;
   transition: transform 0.3s

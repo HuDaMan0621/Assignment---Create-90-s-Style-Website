@@ -10,7 +10,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: x-large;
-    /* position: fixed; */
+    position: fixed;
     padding: 10px;
     border: 2px solid brown;
     margin:5px;

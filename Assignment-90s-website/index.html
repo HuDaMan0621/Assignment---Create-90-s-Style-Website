@@ -2,34 +2,36 @@ This is my website!
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best SNES Games of the 90s</title>
 </head>
+
 <body>
     <h1>
         Best SNES Games of the 90s - Top 5
     </h1>
-    <div id = "myStyle">
+    <div id="myStyle">
         <ol>
-            
-        <li>
-            I think the best was <a href="Links/SuperMario.html">Super Mario World</a>
-        </li>
-        <li>
-            Following by <a href="Links/SuperMetroid.html">Super Metriod</a>
-        </li>
-        <li>
-            <a href="Links/StreetFighter2.html">StreetFighter2</a>
-        </li>
-        <li>
-            <a href="Links/ChronoTrigger.html">Chrono Trigger</a>
-        </li>
-        <li>
-            and lastly <a href="Links/MegaManX.html">MegaManX</a>
-        </li>
+
+            <li>
+                I think the best was <a href="Links/SuperMario.html">Super Mario World</a>
+            </li>
+            <li>
+                Following by <a href="Links/SuperMetroid.html">Super Metriod</a>
+            </li>
+            <li>
+                <a href="Links/StreetFighter2.html">StreetFighter2</a>
+            </li>
+            <li>
+                <a href="Links/ChronoTrigger.html">Chrono Trigger</a>
+            </li>
+            <li>
+                and lastly <a href="Links/MegaManX.html">MegaManX</a>
+            </li>
 
         </ol>
     </div>
@@ -40,57 +42,55 @@ This is my website!
     </h1>
 
     <!-- create a box, let me know what you think  -->
-        
-    <form action="">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name"><br><br>
-      <label for="message">Your favorite game?:</label>
-      <input type="text" id="message" name="message"><br><br>
-      <input type="submit" value="Submit">
-    </form>
-    
-    <p style="color: cyan; font-style: normal;">Click the "Submit" button and nothing happens.</p>
-    
+
     <br>
     <br>
-    
+
 </body>
-    <p>
-        Cast your vote here! Clik on the buttons
-    </p>
-    <!-- counter for Street Fighter -->
-    <button onclick=displaycount()>Super Mario World</button>
-    <p id = "smw">0</p>
 
-    <script>
-        var count=(function (){
-            var counter = 0;
-        return function () {return counter +1;}
+<form action="">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="message">Your favorite game?:</label>
+    <input type="text" id="message" name="message"><br><br>
+    <input type="submit" value="Submit">
+</form>
 
-        })();
-    
+<p style="color: cyan; font-style: normal;">Click the "Submit" button and nothing happens.</p>
 
-    
-    function displaycount(){
-    document.getElementById("smw").innerHTML = count();
+<p>
+    Cast your vote here! Clik on the buttons
+</p>
+<!-- counter for Street Fighter -->
+<button onclick=displaycount()>Super Mario World</button>
+<p id="smw">0</p>
+
+<script>
+    var count = (function () {
+        var counter = 0;
+        return function () { return counter + 1; }
+    })();
+
+    function displaycount() {
+        document.getElementById("smw").innerHTML = count();
     }
-    </script>
+</script>
 
-    <!-- counter for Street Fighter -->
-    <button onclick="displaycountsm()">Super Metriod</button>
-    <p id = "sm">0</p>
+<!-- counter for Street Fighter -->
+<button onclick="displaycount()">Super Metriod</button>
+<p id="sm">0</p>
 
-    <script>
-        var count1=(function (){
-            var counter1 = 0;
-        return function () {return counter1 +=1;}
+<script>
+    var count1 = (function () {
+        var counter1 = 0;
+        return function () { return counter1 += 1; }
 
-        })();
-    
-    function displaycountsm(){
-    document.getElementById("sm").innerHTML = count1();
+    })();
+
+    function displaycount() {
+        document.getElementById("sm").innerHTML = count1();
     }
-    </script>
+</script>
 
-    
+
 </html>

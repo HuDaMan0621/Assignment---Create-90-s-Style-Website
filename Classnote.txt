@@ -1,0 +1,9 @@
+float goes left and right
+color - hex value
+
+
+h1:hover{
+
+transition: color 0.3s;
+
+}

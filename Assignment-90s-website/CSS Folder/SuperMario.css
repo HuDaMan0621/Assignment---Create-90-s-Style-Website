@@ -1,0 +1,65 @@
+html {
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    /* position: fixed; */
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+
+/* aside {
+    position: absolute;
+    right: 0;
+    margin-top: 85px;
+    width: 6.7%;
+    /* width: calc(main width(10%) - aside width(20%)); */
+
+
+/* border-bottom-width: 1%; */
+
+div {
+    position: absolute, center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 80px;
+    width: 80%
+}
+
+aside {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: x-large;
+    position: fixed;
+    padding: 10px;
+    border: 2px solid gold;
+    margin: 5px;
+}
+
+@media screen and (max-width:600px) {
+    div {
+        background-color: blue;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    div {
+        background-color: white;
+    }
+}
